@@ -1,0 +1,16 @@
+# Core: Whisper engine, web UI and audio decoding
+faster-whisper>=1.1
+gradio>=6.0
+librosa>=0.10
+soundfile>=0.12
+numpy>=1.24
+
+# Google Web Speech engine (online)
+SpeechRecognition>=3.10
+
+# Optional: wav2vec2 engine (large download, uncomment to enable)
+# torch>=2.1
+# transformers>=4.40
+
+# Optional: microphone recording from the command line
+# sounddevice>=0.4
